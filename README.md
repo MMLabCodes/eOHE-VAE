@@ -25,7 +25,7 @@ conda activate selfies
 
 ## eOHE Method
 
-eOHE method description -->
+eOHE method description
 
 
 ## Usage
