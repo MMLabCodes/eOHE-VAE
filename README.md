@@ -50,7 +50,7 @@ python rvae_rnn.py -encoding smiles -reduction0 -smiles_file smiles_file.csv
 ``smiles_file.csv`` file must not have header. 
 
 For quick testing, please select any of the smiles files subsets from QM9_sizes, GDB_sizes or ZINC_sizes 
-directories from QM9, GDB or ZINC databases directories, respectively.
+directories from QM9, GDB or ZINC databases, respectively.
 
 For example
  ``-smiles_file QM9_sizes/qm9_smiles_size_1000_index_1.csv``
