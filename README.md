@@ -47,7 +47,13 @@ python rvae_rnn.py -encoding smiles -reduction0 -smiles_file smiles_file.csv
 | -nltanh      | Optional  | Change activation function in first layer of Encoder to Tanh instead of ReLU        |
 | -scheduler   | Optional  | Add an scheduler with patience of 2 to reduce learning rate                         |
 
-``smiles_file.csv`` file must not have header
+``smiles_file.csv`` file must not have header. 
+
+For quick testing, please select any of the smiles files subsets from QM9_sizes, GDB_sizes or ZINC_sizes 
+directories from QM9, GDB or ZINC databases directories, respectively.
+
+For example
+ ``-smiles_file QM9_sizes/qm9_smiles_size_1000_index_1.csv``
 
 ## Contributing
 
