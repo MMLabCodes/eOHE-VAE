@@ -9,6 +9,8 @@ This project uses the VAE model from SELFIES Project (https://github.com/aspuru-
 ## Info
 
 Authors: Emilio Alexis de la Cruz Nuñez-Andrade, Isaac Vidal-Daza, James W. Ryan, Rafael Gómez-Bombarelli, Francisco J. Martín-Martínez
+
+
 Swansea University, Massachusetts Institute of Technology 2023
 
 ## Installation
