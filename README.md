@@ -35,7 +35,7 @@ eOHE method description
 To run the script, use the following command:
 
 ```bash
-python rvae_rnn.py **-encoding** smiles **-reduction0** **-smiles_file** smiles_file.csv
+python rvae_rnn.py <b>-encoding smiles</b> -reduction0 -smiles_file smiles_file.csv
 ``` 
 | Keyword  | Status    | Description                                                                             | Requires Value |
 |--------------|-----------|-------------------------------------------------------------------------------------|-----------------------|
