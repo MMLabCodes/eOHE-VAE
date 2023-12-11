@@ -40,15 +40,15 @@ python rvae_rnn.py -encoding smiles -reduction0 -smiles_file smiles_file.csv
 ``` 
 
 
-| Keyword  | Status    | Description                                                                             | Requires Value |
-|--------------|-----------|-------------------------------------------------------------------------------------|-----------------------|
-| -reduction0  | Mandatory | Choose one: -reduction0, -reduction1, -reduction2                                   | No  |
-| -reduction1  | Mandatory | Choose one: -reduction0, -reduction1, -reduction2                                   | No  |
-| -reduction2  | Mandatory | Choose one: -reduction0, -reduction1, -reduction2                                   | No  |
-| -encoding    | Mandatory | Choose smiles ( for SMILES), deepsmiles (for DeepSMILES) or selfies (for SELFIES)   | Yes, (smiles, deepsmiles or selfies)  |
-| -smiles_file | Mandatory | Path to the input file (e.g., smiles_file.csv)           | Yes, smiles_file.csv  |
-| -nltanh      | Optional  | Change activation function in first layer of Encoder to Tanh instead of ReLU        | No  |
-| -scheduler   | Optional  | Add an scheduler with patience of 2 to reduce learning rate                         | NO  |
+| Keyword      | Status    | Description                                                                         |
+|--------------|-----------|-------------------------------------------------------------------------------------|
+| -reduction0  | Mandatory | Choose one: -reduction0, -reduction1, -reduction2                                   |
+| -reduction1  | Mandatory | Choose one: -reduction0, -reduction1, -reduction2                                   |
+| -reduction2  | Mandatory | Choose one: -reduction0, -reduction1, -reduction2                                   |
+| -encoding    | Mandatory | Choose one: smiles, deepsmiles, selfies                                             |
+| -smiles_file | Mandatory | Path to the input file (e.g., smiles_file.csv)                                      |
+| -nltanh      | Optional  | Change activation function in first layer of Encoder to Tanh instead of ReLU        |
+| -scheduler   | Optional  | Add an scheduler with patience of 2 to reduce learning rate                         |
 
 ``smiles_file.csv`` file must not have header. 
 
