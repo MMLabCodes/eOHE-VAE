@@ -15,15 +15,16 @@ Swansea University, Massachusetts Institute of Technology, Universidad de Granad
 
 ## Installation
 
-A `enviromentpackages.yml` file has been provided with the necessary packages to run this project, to install it just run:
+A `eohe_environment.yml` file has been provided with the necessary packages to run this project, to install it just run:
+
 ```bash
-conda env create -f selfiesEnviroment.yml
+conda env create -f eohe_environment.yml
 ```
 And you can activate it following the next command:
 
 ```bash
-conda activate **selfies**
-
+conda activate eohe
+```
 
 ## eOHE Method
 
@@ -37,6 +38,8 @@ To run the script, use the following command:
 ```bash
 python rvae_rnn.py -encoding smiles -reduction0 -smiles_file smiles_file.csv
 ``` 
+
+
 | Keyword  | Status    | Description                                                                             | Requires Value |
 |--------------|-----------|-------------------------------------------------------------------------------------|-----------------------|
 | -reduction0  | Mandatory | Choose one: -reduction0, -reduction1, -reduction2                                   | No  |
