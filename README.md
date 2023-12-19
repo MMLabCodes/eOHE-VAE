@@ -28,7 +28,9 @@ conda activate eohe
 
 ## eOHE Method
 
-eOHE method description
+The description of Embedded One-Hot Encoding (eOHE) method can be found in our article:
+``Embedded machine-readable molecular representation for more resource-efficient deep learning applications''
+
 
 
 ## Usage
