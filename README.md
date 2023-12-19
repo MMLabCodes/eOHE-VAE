@@ -1,6 +1,6 @@
 # eOHE-VAE
 
-An algorith to perform embedded One Hot Encoding (eOHE) on categorical data.
+An algorithm to perform embedded One Hot Encoding (eOHE) on categorical data.
 
 ## Overview
 
