@@ -434,7 +434,7 @@ def train_model(data_train, data_valid, num_epochs, latent_dimension, tensorBoar
         model_encode.eval()
         model_decode.eval()
         with torch.no_grad():
-            inp_smile_hot_valid = data_valid  # Asumiendo que los datos de validación ya están en forma de tensor
+            inp_smile_hot_valid = data_valid  
             inp_smile_encode_valid = inp_smile_hot_valid.reshape(inp_smile_hot_valid.shape[0], inp_smile_hot_valid.shape[1] * inp_smile_hot_valid.shape[2])
             latent_points_valid, mus_valid, log_vars_valid = model_encode(inp_smile_encode_valid)
             latent_points_valid = latent_points_valid.reshape(1, inp_smile_hot_valid.shape[0], latent_points_valid.shape[1])
